@@ -64,6 +64,7 @@ model AvailableTrigger {
   triggers Trigger[]
 }
 
+//how many times we hit the trigger that will be stored here
 model ZapRun {
   id           String @id @default(uuid())
   zapId        String
